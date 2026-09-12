@@ -1,0 +1,12 @@
+# LeetCode Account Info
+* **Username:** marwan-2004
+* **Profile Link:** https://leetcode.com/u/marwan-2004/
+* **Status:** Accepted (Reverse String)
+
+
+# Research & Problem Solving Notes
+
+## Reverse String (Two Pointers Approach)
+* **Explanation:** We initialize two pointers (`left` at index 0 and `right` at index `n - 1`). We swap their values in-place and move the pointers closer until they meet in the middle.
+* **Time Complexity:** O(n) — We traverse half the array of size n.
+* **Space Complexity:** O(1) — In-place swapping using a single temporary variable without allocating additional memory.
